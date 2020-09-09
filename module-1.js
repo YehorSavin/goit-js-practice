@@ -172,3 +172,78 @@
 // }
 
 // repeat('joinToUs', 3)
+
+
+
+// ---------------------------------------------------------------------------
+
+
+// const obj = {
+//   defaultValue: 0,
+//   add: function() {
+//     obj.defaultValue += 1;
+//     const a = 10;
+//     return a;
+//   },
+//   onDecrement: function() {
+//     obj.defaultValue -=1;
+//   }
+// };
+
+// let increment = obj.add;
+// increment();
+
+// obj.mul = function(n) {
+//   obj.defaultValue *=n
+// }
+
+// obj.mul(3);
+
+// ---------------------------------------------------------
+
+// const obj2 = {
+//   defaultValue: 0,
+//   add: function(n) {
+//    return obj2.defaultValue += n;
+//   }
+//   console.log(obj2.add(228));
+
+//   onDecrement: function(n) {
+//     return obj2.defaultValue -= n;
+//    }
+//    console.log(obj2.add(228));
+  
+ 
+// }
+
+
+
+
+
+//   add: function(n) {
+//    return obj3.defaultValue -= n;
+//   }
+// console.log(obj3.add(228));
+
+
+
+// const obj4 = {
+//   defaultValue: 0,
+//   add: function(n) {
+//    return obj4.defaultValue *= n;
+//   }
+// }
+// console.log(obj4.add(228));
+
+
+
+// const obj5 = {
+//   defaultValue: 0,
+//   add: function(n) {
+//    return obj5.defaultValue %= n;
+//   }
+// }
+// console.log(obj5.add(228));
+
+// ----------------------------------------------------------------------------------------------------------------------
+
