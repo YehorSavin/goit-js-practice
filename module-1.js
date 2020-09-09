@@ -17,41 +17,41 @@
 // let newAnswer = confirm (newQuestion);
 // console.log(typeof newAnswer);
 
-let num = 10;
-let boolNum = Boolean(num);
-console.log(boolNum);
+// let num = 10;
+// let boolNum = Boolean(num);
+// console.log(boolNum);
 
-num = 0;
-boolNum = Boolean(num);
-console.log(boolNum);
+// num = 0;
+// boolNum = Boolean(num);
+// console.log(boolNum);
 
-let str = 'Gena';
-let boolStr = Boolean(str);
-console.log(boolStr);
+// let str = 'Gena';
+// let boolStr = Boolean(str);
+// console.log(boolStr);
 
-str = ``;
-boolStr = Boolean(str);
-console.log(boolStr);
+// str = ``;
+// boolStr = Boolean(str);
+// console.log(boolStr);
 
-str = ` `;
-boolStr = Boolean(str);
-console.log(boolStr);
+// str = ` `;
+// boolStr = Boolean(str);
+// console.log(boolStr);
 
-let isOpen;
-console.log(isOpen);
-console.log(typeof isOpen);
+// let isOpen;
+// console.log(isOpen);
+// console.log(typeof isOpen);
 
-let boolUnd = Boolean(isOpen);
-console.log(boolUnd);
-console.log(typeof boolUnd);
+// let boolUnd = Boolean(isOpen);
+// console.log(boolUnd);
+// console.log(typeof boolUnd);
 
-isOpen = null;
-console.log(isOpen);
-console.log(typeof isOpen);
+// isOpen = null;
+// console.log(isOpen);
+// console.log(typeof isOpen);
 
-let boolNull = Boolean (isOpen);
-console.log(boolNull)
-console.log(typeof boolNull)
+// let boolNull = Boolean (isOpen);
+// console.log(boolNull)
+// console.log(typeof boolNull)
 
 
 // -----------------------------------------------------------------------------
@@ -112,31 +112,63 @@ console.log(typeof boolNull)
 
 // ----------------------Task3
 
-const findLongestWord = function(string) {
-  let arrayWord = string.split(` `);
-  // console.log(arrayWord);
-  let longestWord = arrayWord[0];
-  let wordLength = arrayWord[0].length;
-  for(let i = 1; i < arrayWord.length; i++){
-    // console.log(arrayWord[i]);
-    // console.log(arrayWord[i].length);
-    if(wordLength < arrayWord[i].length) {
-      wordLength = arrayWord[i].length
-      // console.log(wordLength);
-      longestWord = arrayWord[i];
-      // console.log(longestWord);
-    }
-  }
-  return longestWord
-  // for (let word of arrayWord) {
-  //   console.log(typeof word);
+// const findLongestWord = function(string) {
+//   let arrayWord = string.split(` `);
+//   // console.log(arrayWord);
+//   let longestWord = arrayWord[0];
+//   let wordLength = arrayWord[0].length;
+//   for(let i = 1; i < arrayWord.length; i++){
+//     // console.log(arrayWord[i]);
+//     // console.log(arrayWord[i].length);
+//     if(wordLength < arrayWord[i].length) {
+//       wordLength = arrayWord[i].length
+//       // console.log(wordLength);
+//       longestWord = arrayWord[i];
+//       // console.log(longestWord);
+//     }
+//   }
+//   return longestWord
+//   // for (let word of arrayWord) {
+//   //   console.log(typeof word);
     
-  // }
-};
+//   // }
+// };
 
 
-console.log(findLongestWord('The quick brown fox jumped over the lazy dog'));
+// console.log(findLongestWord('The quick brown fox jumped over the lazy dog'));
 
-console.log(findLongestWord('Google do a roll'));
+// console.log(findLongestWord('Google do a roll'));
 
-console.log(findLongestWord('May the force be with you'));
+// console.log(findLongestWord('May the force be with you'));
+
+
+// ----------------------------------------------------------------------------------------------------------------------
+
+
+// const humanCreate = function (hair, eyes, height, weight) {
+
+//   return `Human with ${hair} hair and ${weight} weight has been created`
+
+// }
+
+// console.log(humanCreate('black', 'green', 175, 75));
+// console.log(humanCreate('red', 'blue', 200, 95));
+
+
+
+
+// const humanCreate = (hair, eyes, height, weight) => `Human with ${hair} hair and ${weight} weight has been created`;
+
+// console.log(humanCreate('black', 'green', 175, 75));
+// console.log(humanCreate('red', 'blue', 200, 95));
+
+
+
+
+// const repeat = function (str, n) {
+//   let result = '';
+//   for (let i = 0; i < n; i += 1);
+//   return repeat;
+// }
+
+// repeat('joinToUs', 3)
